@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vamp-Editor</title>
+    <script src="https://pagecdn.io/lib/ace/1.4.12/ace.min.js"></script>
+    <script src="https://pagecdn.io/lib/ace/1.4.12/ext-language_tools.min.js"></script>
+</head>
+
+<body>
+    <div class="change_layout">Change Layout</div>
+    <div class="container view2">
+        <div class="writecode view2">
+            <div class="code htmledit">
+                <div class="type"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" height="19px"
+                        width="19px" style="vertical-align: middle;margin-right: 2px;">
+                    <p style="font-size: 10px; margin-left: 3px;">HTML</p>
+                </div>
+                <div class="edit html" id="html"></div>
+            </div>
+            <div class="code cssedit">
+                <div class="type"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" height="19px"
+                        width="19px" style="vertical-align: middle;margin-right: 2px;">
+                    <p style="font-size: 10px; margin-left: 3px;">CSS</p>
+                </div>
+                <div class="edit css" id="css"></div>
+            </div>
+            <div class="code jsedit">
+                <div class="type"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" height="19px"
+                        width="19px" style="vertical-align: middle;margin-right: 2px;">
+                    <p style="font-size: 10px;">Javascript</p>
+                </div>
+                <div class="edit js" id="js"></div>
+            </div>
+        </div>
+        <div class="output">
+            <iframe src="" class="browser-iframe" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.14.0/ace.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
